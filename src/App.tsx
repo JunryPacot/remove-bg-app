@@ -39,14 +39,14 @@ export default function App() {
       setResult(resultUrl);
       setTimeout(() => resultRef.current?.scrollIntoView({ behavior: "smooth" }), 300);
     } else {
-      alert("❌ Failed to remove background. Try again later.");
+      alert("❌ Failed to remove background. Try again later. or message Junry Pacot");
     }
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-indigo-600 to-blue-600 p-4 text-white flex flex-col items-center">
       <div className="bg-white text-gray-900 rounded-3xl shadow-2xl p-6 w-full max-w-xl animate-fade-in">
-        <h1 className="text-3xl font-extrabold mb-6 text-center">✨ AI Background Remover</h1>
+        <h1 className="text-3xl font-extrabold mb-6 text-center"> Image Background Remove by: Junry Pacot </h1>
 
         <input
           type="file"
